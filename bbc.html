@@ -157,7 +157,7 @@ function serviceData(data) {
   var key = s.key;
   var type = s.type;
   var which = type == 'tv' ? 'WATCH' : 'LISTEN';
-  var path = 'http://www.bbc.co.uk/iplayer/img/station_logos/'+key+'.png';
+  var path = 'http://static.bbci.co.uk/radio/156/1.81.1/img/logos/v2/'+key+'_alt_colour.svg';
   var link = "chrome.tabs.create({url: 'http://www.bbc.co.uk/iplayer/"+type+"/"+key+"'});"; 
   var islive = 'islive';
   var live_str = ''; 
